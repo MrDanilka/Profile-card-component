@@ -1,3 +1,8 @@
+:root{
+    --gray: hsl(0, 0%, 59%);
+    --text: hsl(229, 23%, 23%);
+}
+
 html{
     margin: 0;
     padding: 0;
@@ -7,5 +12,62 @@ body{
     background-color: #19a1ad;
     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: top 150% left -25%, bottom 200% right -25%;
+    background-position: top 150% left -75%, bottom 200% right -75%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 8px;
+    color: var(--text);
+}
+
+main{
+    min-height: 95vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profileCard{
+    background-color: white;
+    background-image: url('../images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+    background-position: top 0% left 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    height: 350px;
+    margin:auto;
+    border-radius: 12px;
+}
+
+#profilePicture{
+    background-color: white;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+
+#picture{
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row{
+    margin: auto;
+}
+
+.gray{
+    color: var(--gray);
+}
+
+#stats{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    border-top: solid 0.01em var(--gray);
 }
