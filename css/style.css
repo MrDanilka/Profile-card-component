@@ -82,7 +82,5 @@ main{
     }
     #profileCard, #stats{
         width: 325px;
-        margin-left: 0;
-        margin-right: 0;
     }
   }
