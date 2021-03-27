@@ -1,0 +1,11 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #19a1ad;
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 150% left -25%, bottom 200% right -25%;
+}
