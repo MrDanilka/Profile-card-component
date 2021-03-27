@@ -12,7 +12,7 @@ body{
     background-color: #19a1ad;
     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: top 150% left -75%, bottom 200% right -75%;
+    background-position: top -50vh left -50vh, bottom -50vh right -50vh;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 8px;
     color: var(--text);
@@ -63,6 +63,7 @@ main{
 
 .gray{
     color: var(--gray);
+    font-weight: 400;
 }
 
 #stats{
@@ -70,4 +71,18 @@ main{
     justify-content: space-around;
     width: 350px;
     border-top: solid 0.01em var(--gray);
+    text-align: center;
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 100vw;
+        background-size: 125vw;
+        background-position: top -50vw left -75vw, bottom -25vw right -75vw;
+    }
+    #profileCard, #stats{
+        width: 325px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }
