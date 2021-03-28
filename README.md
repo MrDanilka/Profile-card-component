@@ -28,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/html-semantic-elements-css-properties-use-a-lot-units-vh-vw-hy1_CNpIZ)
+- Live Site URL: [live site URL here](https://mrdanilka.github.io/Profile-card-component/)
 
 ## My process
 
